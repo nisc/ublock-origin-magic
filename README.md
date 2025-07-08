@@ -25,3 +25,7 @@ Blocks chat, comments, and recommended content sections (via [Travis Llado](http
 ## Usage
 
 These filters are designed to be imported directly into uBlock Origin. Each list targets specific websites and removes unwanted content while preserving core functionality.
+
+## Combined Filter List
+
+Run `./create-combo-filter-list.sh` to generate `all-filters-for-import.txt` - a single file containing all filter lists (for import into uBlock Origin).

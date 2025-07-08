@@ -16,3 +16,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Combined filter output
+all-filters-for-import.txt
