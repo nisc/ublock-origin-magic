@@ -7,6 +7,9 @@ Custom uBlock Origin filters for increased privacy, UX, and performance.
 ### [grok-filters.txt](filters/grok-filters.txt)
 Blocks animations, transitions, and CPU-intensive screensavers.
 
+### [linkedin-filters.txt](filters/linkedin-filters.txt)
+Blocks reposts, ads, trackers, and social noise (e.g., "X supports/loves/celebrates this").
+
 ## Installation
 
 1. Open uBlock Origin settings

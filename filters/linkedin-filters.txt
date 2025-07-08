@@ -1,0 +1,37 @@
+! ==============================================================================
+! LinkedIn Optimized Filters - Blocks reposts, ads, trackers, and social noise
+! ==============================================================================
+
+! --- Network Filters ---
+
+||linkedin.com/li/track^$script
+||linkedin.com/sensorCollect^$xhr
+||linkedin.com/biz^$script
+||linkedin.com/px^$image
+
+! --- Cosmetic Filters ---
+
+! Block ads and promotional content
+www.linkedin.com##iframe[title="Advertisement"]
+
+! Block promoted posts
+www.linkedin.com##div.feed-shared-update-v2:has(div.update-components-header:has-text(/Promoted/))
+
+! Block AI-generated content and suggestions
+www.linkedin.com##div.feed-shared-update-v2:has(div.update-components-header:has-text(/Suggested/))
+
+! Block social engagement noise (comments)
+www.linkedin.com##div.feed-shared-update-v2:has(div.update-components-header:has-text(/commented on this/))
+
+! Block social engagement noise (reposts)
+www.linkedin.com##div.feed-shared-update-v2:has(div.update-components-header:has-text(/reposted this/))
+
+! Block social engagement noise (likes, reactions)
+www.linkedin.com##div.feed-shared-update-v2:has(div.update-components-header:has-text(/likes this|loves this|finds this insightful|finds this funny|celebrates this|supports this/))
+
+! --- Whitelists ---
+
+! Uncomment if over-blocking occurs
+!@@||linkedin.com/feed^$elemhide
+!@@||linkedin.com/jobs/search^$elemhide
+!@@||linkedin.com/messaging^$elemhide
