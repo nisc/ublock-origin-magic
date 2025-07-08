@@ -14,6 +14,12 @@
 ! Block ads and promotional content
 www.linkedin.com##iframe[title="Advertisement"]
 
+! News box
+www.linkedin.com##aside[aria-label="LinkedIn News"] > *:style(display: none !important;)
+
+! Puzzle game
+www.linkedin.com##div:has(> div:has(> p:has-text(puzzle game)))
+
 ! Block promoted posts
 www.linkedin.com##div.feed-shared-update-v2:has(div.update-components-header:has-text(/Promoted/))
 
