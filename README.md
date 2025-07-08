@@ -4,6 +4,9 @@ Custom uBlock Origin filters for increased privacy, UX, and performance.
 
 ## Filter Lists
 
+### [google-filters.txt](filters/google-filters.txt)
+Blocks unwanted Google services and sign-in prompts.
+
 ### [grok-filters.txt](filters/grok-filters.txt)
 Blocks animations, transitions, and CPU-intensive screensavers.
 

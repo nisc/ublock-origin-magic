@@ -1,0 +1,8 @@
+! ==============================================================================
+! Google Optimized Filters - Blocks unwanted Google services and elements
+! ==============================================================================
+
+! --- Network Filters ---
+
+! Disable Google based signin
+||accounts.google.com/gsi/iframe/select$subdocument
