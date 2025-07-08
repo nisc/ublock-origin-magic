@@ -1,0 +1,21 @@
+! ==============================================================================
+! YouTube Optimized Filters - Blocks chat, comments, and recommended content
+! via https://www.travisllado.com/2025/05/my-ublock-origin-rules.html
+! ==============================================================================
+
+! --- Cosmetic Filters ---
+
+! Block chat, comments, and promotional content
+www.youtube.com###chat
+www.youtube.com###comments
+www.youtube.com###content-section
+www.youtube.com###offer-module
+
+! Block recommended content sections
+www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(1)
+www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(2)
+www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(3)
+www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##ytd-rich-section-renderer
+www.youtube.com##ytd-shelf-renderer

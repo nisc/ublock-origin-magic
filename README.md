@@ -13,6 +13,9 @@ Blocks animations, transitions, and CPU-intensive screensavers.
 ### [linkedin-filters.txt](filters/linkedin-filters.txt)
 Blocks reposts, ads, trackers, and social noise (e.g., "X supports/loves/celebrates this").
 
+### [youtube-filters.txt](filters/youtube-filters.txt)
+Blocks chat, comments, and recommended content sections (via [Travis Llado](https://www.travisllado.com/2025/05/my-ublock-origin-rules.html)).
+
 ## Installation
 
 1. Open uBlock Origin settings
