@@ -4,7 +4,8 @@ Custom uBlock Origin filters for increased privacy, UX, and performance.
 
 ## Filter Lists
 
-To be added.
+### [grok-filters.txt](filters/grok-filters.txt)
+Blocks animations, transitions, and CPU-intensive screensavers.
 
 ## Installation
 

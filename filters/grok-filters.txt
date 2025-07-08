@@ -1,0 +1,13 @@
+! ==============================================================================
+! grok.com Optimized Filters - Blocks animations and CPU-intensive elements
+! ==============================================================================
+
+! --- Cosmetic Filters ---
+
+! Hide animations and transitions (e.g., for widgets)
+grok.com##* { animation: none !important; transition: none !important; }
+
+! Hide CPU consuming "space" idle screensaver (moving stars)
+grok.com##.absolute.top-0.left-0.w-full.h-full > canvas
+! Alternative: Less specific screensaver hiding (might hide other charts or graphics)
+!grok.com##canvas
