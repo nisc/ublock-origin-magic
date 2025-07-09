@@ -6,3 +6,8 @@
 
 ! Disable Google based signin
 ||accounts.google.com/gsi/iframe/select$subdocument
+
+! --- Cosmetic fixes ---
+
+! Fix glitch in Google Docs on Firefox
+docs.google.com##.kix-outlines-widget-header-container > .kix-outlines-widget-header-contents:style(width: calc(100% - 1px) !important;)
