@@ -4,6 +4,9 @@ Custom uBlock Origin filters for increased privacy, UX, and performance.
 
 ## Filter Lists
 
+### [chatgpt-filters.txt](filters/chatgpt-filters.txt) ([raw](https://raw.githubusercontent.com/nisc/ublock-origin-magic/main/filters/chatgpt-filters.txt))
+Blocks visual noise on ChatGPT (e.g., Upgrade prompts).
+
 ### [google-filters.txt](filters/google-filters.txt) ([raw](https://raw.githubusercontent.com/nisc/ublock-origin-magic/main/filters/google-filters.txt))
 Blocks unwanted Google services and sign-in prompts.
 

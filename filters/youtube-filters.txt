@@ -1,5 +1,5 @@
 ! ==============================================================================
-! YouTube Optimized Filters - Blocks chat, comments, and recommended content
+! YouTube Filters - Blocks chat, comments, and recommended content
 ! via https://www.travisllado.com/2025/05/my-ublock-origin-rules.html
 ! ==============================================================================
 

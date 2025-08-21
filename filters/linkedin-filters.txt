@@ -1,5 +1,5 @@
 ! ==============================================================================
-! LinkedIn Optimized Filters - Blocks reposts, ads, trackers, and social noise
+! LinkedIn Filters - Blocks reposts, ads, trackers, and social noise
 ! ==============================================================================
 
 ! --- Network Filters ---

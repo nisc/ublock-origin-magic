@@ -1,5 +1,5 @@
 ! ==============================================================================
-! Google Optimized Filters - Blocks unwanted Google services and elements
+! Google Filters - Blocks unwanted Google services and elements
 ! ==============================================================================
 
 ! --- Network Filters ---

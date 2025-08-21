@@ -1,0 +1,8 @@
+! ==============================================================================
+! ChatGPT Filters - Blocks upsell prompts and visual noise
+! ==============================================================================
+
+! --- Cosmetic Filters ---
+
+! Hide "Upgrade" prompts
+chatgpt.com##div:has(> button:has-text(Upgrade))

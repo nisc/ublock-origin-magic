@@ -1,5 +1,5 @@
 ! ==============================================================================
-! grok.com Optimized Filters - Blocks animations and CPU-intensive elements
+! grok.com Filters - Blocks animations and CPU-intensive elements
 ! ==============================================================================
 
 ! --- Cosmetic Filters ---
