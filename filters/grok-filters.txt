@@ -11,3 +11,6 @@ grok.com##* { animation: none !important; transition: none !important; }
 grok.com##.absolute.top-0.left-0.w-full.h-full > canvas
 ! Alternative: Less specific screensaver hiding (might hide other charts or graphics)
 !grok.com##canvas
+
+! Hide SuperGrok "Upgrade" prompt in bottom right corner
+grok.com##.upsell-small
