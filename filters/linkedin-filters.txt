@@ -27,13 +27,13 @@ www.linkedin.com##div.feed-shared-update-v2:has(div.update-components-header:has
 www.linkedin.com##div.feed-shared-update-v2:has(div.update-components-header:has-text(/Suggested/))
 
 ! Block social engagement noise (comments)
-www.linkedin.com##div.feed-shared-update-v2:has(div.update-components-header:has-text(/commented on this/))
+www.linkedin.com##:not(:matches-path(/in/.*/recent-activity/)) div.feed-shared-update-v2:has(div.update-components-header:has-text(/commented on this/))
 
 ! Block social engagement noise (reposts)
-www.linkedin.com##div.feed-shared-update-v2:has(div.update-components-header:has-text(/reposted this/))
+www.linkedin.com##:not(:matches-path(/in/.*/recent-activity/)) div.feed-shared-update-v2:has(div.update-components-header:has-text(/reposted this/))
 
 ! Block social engagement noise (likes, reactions)
-www.linkedin.com##div.feed-shared-update-v2:has(div.update-components-header:has-text(/likes this|loves this|finds this insightful|finds this funny|celebrates this|supports this/))
+www.linkedin.com##:not(:matches-path(/in/.*/recent-activity/)) div.feed-shared-update-v2:has(div.update-components-header:has-text(/likes this|loves this|finds this insightful|finds this funny|celebrates this|supports this/))
 
 ! --- Whitelists ---
 
