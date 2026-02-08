@@ -1,0 +1,8 @@
+! ==============================================================================
+! Perplexity Filters - Rules for Perplexity AI
+! ==============================================================================
+
+! --- Cosmetic Filters ---
+
+! Hide the "Follow-ups" suggestions (usually low value and repetitive)
+perplexity.ai##div.border-subtlest:has(> div.bg-base > div.mb-md:has-text(/^Follow-ups$/))

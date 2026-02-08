@@ -16,6 +16,9 @@ Blocks animations, transitions, and CPU-intensive screensavers.
 ### [linkedin-filters.txt](filters/linkedin-filters.txt) ([raw](https://raw.githubusercontent.com/nisc/ublock-origin-magic/main/filters/linkedin-filters.txt))
 Blocks reposts, ads, trackers, and social noise (e.g., "X supports/loves/celebrates this").
 
+### [perplexity-filters.txt](filters/perplexity-filters.txt) ([raw](https://raw.githubusercontent.com/nisc/ublock-origin-magic/main/filters/perplexity-filters.txt))
+Hides the "Follow-ups" suggestions (usually low value and repetitive).
+
 ### [youtube-filters.txt](filters/youtube-filters.txt) ([raw](https://raw.githubusercontent.com/nisc/ublock-origin-magic/main/filters/youtube-filters.txt))
 Blocks chat, comments, and recommended content sections (via [Travis Llado](https://www.travisllado.com/2025/05/my-ublock-origin-rules.html)).
 
