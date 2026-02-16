@@ -12,28 +12,32 @@
 ! --- Cosmetic Filters ---
 
 ! Block ads and promotional content
-www.linkedin.com##iframe[title="Advertisement"]
+linkedin.com##iframe[title="Advertisement"]
 
 ! News box
-www.linkedin.com##aside[aria-label="LinkedIn News"] > *:style(display: none !important;)
+linkedin.com##aside[aria-label="LinkedIn News"] > *:style(display: none !important;)
 
 ! Puzzle game
-www.linkedin.com##div:has(> div:has(> p:has-text(puzzle game)))
+linkedin.com##div:has(> div:has(> p:has-text(puzzle game)))
 
 ! Block promoted posts
-www.linkedin.com##div.feed-shared-update-v2:has(div.update-components-header:has-text(/Promoted/))
+linkedin.com##div.feed-shared-update-v2:has(div.update-components-header:has-text(/Promoted/))
 
 ! Block AI-generated content and suggestions
-www.linkedin.com##div.feed-shared-update-v2:has(div.update-components-header:has-text(/Suggested/))
+linkedin.com##div.feed-shared-update-v2:has(div.update-components-header:has-text(/Suggested/))
 
 ! Block social engagement noise (comments)
-www.linkedin.com##:not(:matches-path(/in/.*/recent-activity/)) div.feed-shared-update-v2:has(div.update-components-header:has-text(/commented on this/))
+linkedin.com##:not(:matches-path(/recent-activity)) div.feed-shared-update-v2:has(div.update-components-header:has-text(/commented on this/))
 
 ! Block social engagement noise (reposts)
-www.linkedin.com##:not(:matches-path(/in/.*/recent-activity/)) div.feed-shared-update-v2:has(div.update-components-header:has-text(/reposted this/))
+linkedin.com##:not(:matches-path(/recent-activity)) div.feed-shared-update-v2:has(div.update-components-header:has-text(/reposted this/))
 
 ! Block social engagement noise (likes, reactions)
-www.linkedin.com##:not(:matches-path(/in/.*/recent-activity/)) div.feed-shared-update-v2:has(div.update-components-header:has-text(/likes this|loves this|finds this insightful|finds this funny|celebrates this|supports this/))
+linkedin.com##:not(:matches-path(/recent-activity)) div.feed-shared-update-v2:has(div.update-components-header:has-text(/likes this|loves this|finds this insightful|finds this funny|celebrates this|supports this/))
+
+! Block notification cards (profile views, search appearances)
+linkedin.com##article.nt-card:has-text(viewed your profile: Stay anonymous)
+linkedin.com##article.nt-card:has-text(/You appeared in .* searches this week/)
 
 ! --- Whitelists ---
 
